@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Starterkit</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+    <p>Give me a number: <input type="text" id="number-input"></p>
+
+    <a href="page-1.html" id="number-output" data-stateful-link>Show «<strong data-number-output></strong>» on next page</a>
+
+    <!-- Load Javascripts after the DOM is loaded -->
+    <script type="text/javascript" src="javascripts/vendor/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/urijs/uri.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/simple-model/simple-model.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/setup.js"></script>
+    <script type="text/javascript" src="javascripts/index.js"></script>
+  </body>
+</html>
